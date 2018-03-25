@@ -43,18 +43,48 @@ img {
     background-attachment: fixed;
 }
 
+.row{
+margin-right: 40px !important;
+}
+
+@media screen and ( max-width : 991px){
+    .row{
+        margin: 10px 10px !important;
+        padding-top: 10px !important;
+    }
+    
+    
+}
+
+
+
 #icons-section{
     color: #9b5d31 !important;
     font-size: 5rem;
-    margin: 5rem;
-    padding: 2rem;
+    /*margin: 3rem 0 3rem 0;*/
+    padding: 1rem;
     text-align:center;
 }
+
+#icons-section p{
+    color: #6c6f73;
+    font-size: 15px;
+    text-align: justify;
+    /*padding:2px 16px;*/
+}
+
+.icon-card{
+     /* Add shadows to create the "card" effect */
+    box-shadow: 2px 4px 8px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
 
 .feature-content, .feature-caption{
     padding: 5rem 2rem;
     overflow: hidden;
 }
+
 
 .feature-brown{
     background:#9b5d31;
@@ -90,10 +120,15 @@ img {
 
 
 #main-footer{
-    background: white;
+    background:white;
     color: #333;
-    padding: 6rem 0;
+    padding: 3rem 0;
     font-size: 0.8rem;
+}
+
+#cpy{
+    padding: 6rem 0 0 0;
+    text-align: center;
 }
 
 /*#main-footer h6{
@@ -104,8 +139,11 @@ img {
 
 #main-footer a {
     color: #6C5F73;
-    margin: 11rem !important;
     line-height: 3;
+}
+
+.menu-list{
+    text-align: center;
 }
 
 /* Media queries */
