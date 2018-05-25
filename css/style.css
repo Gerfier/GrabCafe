@@ -1,0 +1,167 @@
+
+
+html, body {
+    height: 95%;    
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+    width: 100%;
+    padding:0;
+    margin:0;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width:100%;
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer {
+    margin: 1rem 0 0;
+}
+
+#carouselSlides{
+    background-attachment: fixed;
+}
+
+.row{
+margin-right: 40px !important;
+}
+
+@media screen and ( max-width : 991px){
+    .row{
+        margin: 10px 10px !important;
+        padding-top: 10px !important;
+    }
+    
+    
+}
+
+
+
+#icons-section{
+    color: #9b5d31 !important;
+    font-size: 5rem;
+    /*margin: 3rem 0 3rem 0;*/
+    padding: 1rem;
+    text-align:center;
+}
+
+#icons-section p{
+    color: #6c6f73;
+    font-size: 15px;
+    text-align: justify;
+    /*padding:2px 16px;*/
+}
+
+.icon-card{
+     /* Add shadows to create the "card" effect */
+    box-shadow: 2px 4px 8px 3px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 3rem;
+}
+
+
+.feature-content, .feature-caption{
+    padding: 5rem 2rem;
+    overflow: hidden;
+}
+
+@media screen and ( max-width : 736px){
+    .feature-content{
+        padding: 1rem 2rem;
+    }
+
+    .feature-caption{
+        padding: 4rem 2rem;
+    }
+    
+    
+}
+
+.feature-brown{
+    background:#9b5d31;
+    color: white;
+}
+
+.feature-brown h3 {
+    color: white;
+}
+
+
+#contact h3,h6{
+    text-transform: lowercase;
+    /*text-align: center;*/
+    margin-top: 3rem;    
+}
+
+#contact h3{
+    text-transform: capitalize;
+}
+
+#contact-info{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and ( min-width : 991px){
+    .contact-info{
+        margin-top: 1rem;
+    }
+    
+    
+}
+
+
+#main-footer{
+    background:white;
+    color: #333;
+    padding: 3rem 0;
+    font-size: 0.8rem;
+}
+
+#cpy{
+    padding: 6rem 0 0 0;
+    text-align: center;
+}
+
+/*#main-footer h6{
+    color: #718FA9;
+    padding-top: 1rem;
+}
+*/
+
+#main-footer a {
+    color: #6C5F73;
+    line-height: 3;
+}
+
+.menu-list{
+    text-align: center;
+}
+
+/* Media queries */
+
+
+
